@@ -1,4 +1,9 @@
+
+<div class="container">
+
+
 <h1>Our tasks</h1>
+
 
 <ul>
 <% @tasks.each do |task| %>
@@ -6,5 +11,6 @@
   <% end %>
 </ul>
 
-<%= link_to "Add", tasks_new_path() %>
+<%= link_to "Add", tasks_new_path(), class:'btn btn-primary' %>
 
+</div>
